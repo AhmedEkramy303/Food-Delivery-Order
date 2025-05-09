@@ -1,6 +1,6 @@
 # Food Delivery App Customer Behavior Analysis
 
-## 🎯 Objective
+## Objective
 
 This project aims to understand the habits and preferences of customers using a food delivery application. We seek to answer questions such as:
 * Who are the most active customers (highest order frequency)?
@@ -10,7 +10,7 @@ This project aims to understand the habits and preferences of customers using a 
 
 The analysis intends to derive actionable insights that can help improve user experience, personalize offers, and enhance operational efficiency.
 
-## 🧩 Project Steps
+## Project Steps
 
 1.  **Load and Clean Data:**
     * Load the order history dataset (`order_history_kaggle_data.csv`).
@@ -36,7 +36,7 @@ The analysis intends to derive actionable insights that can help improve user ex
         * Ensuring high availability of popular meal items.
         * If payment data were available and showed a preference, strategies to encourage other methods or improve the experience of less-used ones could be suggested.
 
-## ⚙️ Setup and Execution
+## Setup and Execution
 
 1.  **Clone the Repository (if you upload it to GitHub first):**
     ```bash
@@ -67,7 +67,7 @@ The analysis intends to derive actionable insights that can help improve user ex
     ```
     The script will create a `visualizations/` folder (if it doesn't exist) and save the generated plots there.
 
-## 📊 Data Used
+## Data Used
 
 The data used is `order_history_kaggle_data.csv`. Key columns focused on in this analysis include:
 * `Customer ID`
@@ -76,7 +76,7 @@ The data used is `order_history_kaggle_data.csv`. Key columns focused on in this
 * `Order Status`
 * `Items in order`
 
-## 🛠️ Tools and Libraries
+## Tools and Libraries
 
 * Python 3.x
 * Pandas
